@@ -14,7 +14,7 @@ In the real estate industry, sales teams are often overwhelmed by a high volume 
 The **Lead Qualification System** is an automated CRM tool designed to solve this inefficiency. It acts as a first-line filter, instantly analyzing, scoring, and tagging incoming leads. By leveraging a multi-tiered intelligence engine, the system ensures that sales teams can prioritize their efforts on the top 20% of leads that are most likely to convert.
 
 ### Key Features
-   *   **Smart Tagging**: Automatic classification into Hot, Warm, Low Intent, or Junk.
+   *   **Smart Tagging**: Automatic classification into 🔥Hot, ✨Warm, ❄️Low Intent, or 🗑️Junk.
    *   **Adaptive Intelligence**: Three distinct scoring modes to suit different needs.
    *   **Dashboard**: Visual overview of lead quality and distribution.
    *   **Bulk Processing**: Support for uploading and processing large datasets (CSV/Excel).
@@ -31,36 +31,38 @@ The **Lead Qualification System** is an automated CRM tool designed to solve thi
 
 The system's unique value proposition is its **Adaptive Intelligence Engine**, which operates in three distinct modes to cater to different stages of business maturity.
 
-### Tier 1: Standard Rules (Deterministic)
-*Best for: Cold Start (No Historical Data)*
+### Mode 1: Standard Rules (Deterministic)
+**Best for:** Teams starting out with no historical data.
 
-This mode uses a weighted attribute model based on industry best practices.
+This mode uses a fixed, rule-based algorithm based on industry best practices.
 *   **Logic**: Linear Weighted Sum.
 *   **Scoring Factors**:
     *   **Budget (30%)**: Favors high-value brackets (> ₹1 Cr).
     *   **Timeline (25%)**: Rewards urgency (< 1 month).
     *   **Purpose (15%)**: Prioritizes investors over end-users.
     *   **Loan Eligibility (20%)**: Rewards pre-approved buyers.
+    *   **Location (10%)**: Specific location interest adds value.
 
-### Tier 2: Custom AI Model (Adaptive Inference)
-*Best for: Growth Phase (Moderate Data)*
+### Mode 2: Custom Model (Adaptive )
+**Best for:** Teams with historical data who want tailored scoring.
 
-This mode runs entirely in the browser. It analyzes uploaded historical data (CSV) to "learn" specific conversion patterns.
+This mode runs entirely in the browser. It analyzes your uploaded past data to learn what actually converts *for you*.
 *   **Logic**: Statistical Correlation Analysis.
 *   **Mechanism**:
     1.  Calculates the **Conversion Rate (CR)** for every attribute value.
     2.  Compares local CR to global CR to generate a **Multiplier**.
-    3.  Example: If "Low Budget" leads convert 2x better than average, they get a 2.0x score boost.
+    3.  'Multiplier' Penalizes those attribute values that dont convert and pumps those that convert.
+    4.  Example: If "Low Budget" leads convert surprisingly well, the model assigns a high multiplier(e.g. 1.5x) to that category, boosting their scores significantly compared to the Standard mode.
 
-### Tier 3: External ML Model (Predictive)
-*Best for: Enterprise (Sufficient Data)*
+### Mode 3: External ML Model (Predictive)
+**Best for:** Enterprise use cases-having historic data & requiring complex, non-linear logic.
 
-This mode offloads decision-making to the Python backend.
+This mode offloads decision-making to the pre-traied ML model.
 *   **Logic**: Non-linear Machine Learning (Decision Tree / Random Forest).
 *   **Mechanism**:
-    1.  Frontend sends raw JSON to `/predict`.
-    2.  Backend transforms features (One-Hot Encoding, Scaling).
-    3.  Model predicts class (Hot/Warm/Cold) and Confidence Score.
+    1.  Accepts a custom pre trained '.pkl' file that's trained on historic data.
+    2.  Ttransforms features of test leads (One-Hot Encoding, Scaling).
+    3.  Predicts conversion potential (Hot/Warm/Cold) and Confidence Score using ML model.
     4.  Supports dynamic model updates via `.pkl` file upload.
 
 ---
@@ -93,3 +95,4 @@ Allows users to customize the intelligence.
 ### 6 Additional Tech stack 
 *   **Frontend**: React 18, Vite, CSS Modules (Glassmorphism Design).
 *   **Backend**: Python 3.9+, Flask, Flask-CORS,JSON.
+
