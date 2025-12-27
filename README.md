@@ -17,13 +17,9 @@ The **Lead Qualification System** is an automated CRM tool designed to solve thi
    *   **Dashboard**: Visual overview of lead quality and distribution.
    *   **Bulk Processing**: Support for uploading and processing large datasets (CSV/Excel).
 
----
-
-### 2 Technology Stack
+## 2. Technology Stack
 *   **Data Science**: Scikit-Learn, Pandas, NumPy, Joblib.
 *   **Persistence**:  PKL (Model Artifacts).
-
----
 
 ## 3. The Intelligence Engine (Core Logic)
 
@@ -90,9 +86,10 @@ Allows users to customize the intelligence.
 
 ---
 
-### 6 Additional Tech stack 
+## 6 Additional Tech stack 
 *   **Frontend**: React 18, Vite, CSS Modules (Glassmorphism Design).
 *   **Backend**: Python 3.9+, Flask, Flask-CORS,JSON.
+
 
 
 
