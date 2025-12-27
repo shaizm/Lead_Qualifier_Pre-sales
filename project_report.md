@@ -13,13 +13,17 @@ In the real estate industry, sales teams are often overwhelmed by a high volume 
 ### 1.2 Solution Overview
 The **Lead Qualification System** is an automated CRM tool designed to solve this inefficiency. It acts as a first-line filter, instantly analyzing, scoring, and tagging incoming leads. By leveraging a multi-tiered intelligence engine, the system ensures that sales teams can prioritize their efforts on the top 20% of leads that are most likely to convert.
 
+### Key Features
+   *   **Smart Tagging**: Automatic classification into Hot, Warm, Low Intent, or Junk.
+   *   **Adaptive Intelligence**: Three distinct scoring modes to suit different needs.
+   *   **Dashboard**: Visual overview of lead quality and distribution.
+   *   **Bulk Processing**: Support for uploading and processing large datasets (CSV/Excel).
+
 ---
 
 ### 2 Technology Stack
-*   **Frontend**: React 18, Vite, CSS Modules (Glassmorphism Design).
-*   **Backend**: Python 3.9+, Flask, Flask-CORS.
 *   **Data Science**: Scikit-Learn, Pandas, NumPy, Joblib.
-*   **Persistence**: JSON (Lead Storage), PKL (Model Artifacts).
+*   **Persistence**:  PKL (Model Artifacts).
 
 ---
 
@@ -83,3 +87,9 @@ Allows users to customize the intelligence.
 *   **CRM Integration**: Direct connectors for Salesforce/HubSpot.
 *   **NLP Analysis**: Sentiment analysis of lead comments/notes.
 *   **User Auth**: Multi-user role-based access control.
+
+---
+
+### 6 Additional Tech stack 
+*   **Frontend**: React 18, Vite, CSS Modules (Glassmorphism Design).
+*   **Backend**: Python 3.9+, Flask, Flask-CORS,JSON.
