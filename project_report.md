@@ -1,4 +1,5 @@
-# Project Report: Lead Qualification System
+### Lead Qualifier - A virtual Pre-sales team
+Tool for identifying leads with potential and separate from  junk.
 
 **Version:** 1.0
 **Date:** December 2025
@@ -95,4 +96,5 @@ Allows users to customize the intelligence.
 ### 6 Additional Tech stack 
 *   **Frontend**: React 18, Vite, CSS Modules (Glassmorphism Design).
 *   **Backend**: Python 3.9+, Flask, Flask-CORS,JSON.
+
 
