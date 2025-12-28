@@ -92,6 +92,12 @@ Allows users to customize the intelligence.
 ## 6 Additional Tech stack 
 *   **Frontend**: React 18, Vite, CSS Modules (Glassmorphism Design).
 *   **Backend**: Python 3.9+, Flask, Flask-CORS,JSON.
+  
+---
+
+## 7 Demo
+![LeadQualificationdemo](https://github.com/user-attachments/assets/6634f0ff-abc3-4870-ac6f-ff4168ed403c)
+
 
 
 
