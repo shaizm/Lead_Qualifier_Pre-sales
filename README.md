@@ -26,6 +26,7 @@ The **Lead Qualification System** is an automated CRM tool designed to solve thi
 ## 3. The Intelligence Engine (Core Logic)
 
 The system's unique value proposition is its **Adaptive Intelligence Engine**, which operates in three distinct modes to cater to different stages of business maturity.
+<img width="828" height="294" alt="LeadQualifier2" src="https://github.com/user-attachments/assets/b27edf60-7981-400d-974c-f127275121d2" />
 
 ### Mode 1: Standard Rules (Deterministic)
 **Best for:** Teams starting out with no historical data.
@@ -91,6 +92,7 @@ Allows users to customize the intelligence.
 ## 6 Additional Tech stack 
 *   **Frontend**: React 18, Vite, CSS Modules (Glassmorphism Design).
 *   **Backend**: Python 3.9+, Flask, Flask-CORS,JSON.
+
 
 
 
