@@ -1,6 +1,8 @@
 ### Lead Qualifier - A virtual Pre-sales team
 Tool for identifying leads with potential and separate from  junk.
 
+<img width="968" height="286" alt="LeadQualifier" src="https://github.com/user-attachments/assets/7b597322-50a8-4bac-908b-b1d3dfa9f55a" />
+
 ---
 
 ## 1. Introduction
@@ -89,6 +91,7 @@ Allows users to customize the intelligence.
 ## 6 Additional Tech stack 
 *   **Frontend**: React 18, Vite, CSS Modules (Glassmorphism Design).
 *   **Backend**: Python 3.9+, Flask, Flask-CORS,JSON.
+
 
 
 
